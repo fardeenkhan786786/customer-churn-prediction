@@ -1,53 +1,51 @@
 # Customer Churn Prediction
 
-An end-to-end Machine Learning project that predicts whether a customer is likely to churn.
+A Machine Learning web application that predicts whether a telecom customer is likely to churn.
 
-## Project Overview
+## 🚀 Live Demo
 
-This project uses customer information such as tenure, contract type, internet service, monthly charges, payment method, and other features to predict customer churn.
+[Open Customer Churn Predictor] 
+(https://customer-churn-prediction-5symi42hartrbdjmlfjnc4.streamlit.app/)
 
-## Tech Stack
+## 📌 Features
+
+- Customer churn prediction
+- Churn probability calculation
+- Interactive Streamlit interface
+- Machine Learning model
+- Data preprocessing pipeline
+- Easy-to-use customer input form
+
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotlib
-- Seaborn
-- Streamlit
 - Joblib
+- Streamlit
 - Jupyter Notebook
+- Git & GitHub
 
-## Machine Learning Model
+## 📊 Dataset
 
-The project uses Logistic Regression for binary classification.
+The project uses the Telco Customer Churn dataset containing customer demographic, service, contract, billing and churn information.
 
-## Workflow
+## 🤖 Machine Learning
 
-1. Data loading
-2. Data cleaning
-3. Exploratory Data Analysis
-4. Feature preprocessing
-5. Train-test split
-6. Model training
-7. Model evaluation
-8. Model saving
-9. Streamlit deployment
+The project includes:
 
-## Model Performance
+- Data preprocessing
+- Categorical feature encoding
+- Train-test split
+- Machine Learning classification
+- Model evaluation
+- ROC-AUC evaluation
+- Saved model and preprocessing pipeline
 
-ROC-AUC Score: 0.8357
+## 📁 Project Structure
 
-## Application
-
-A Streamlit web application allows users to enter customer information and receive:
-
-- Churn prediction
-- Churn probability
-- High/Low churn risk
-
-## Project Structure
-
+```text
 customer-churn-prediction/
 │
 ├── data/
@@ -62,12 +60,5 @@ customer-churn-prediction/
 │
 ├── app.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
-
-## How to Run
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
+├── README.md
+└── .gitignore
